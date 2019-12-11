@@ -1,0 +1,86 @@
+body{
+  background-color: #f2f2f27d;
+}
+#navbar .img-fluid{
+	max-height: 40px;
+}
+#navbar input[type=search]{
+      width: 1px;
+      font-size: 16px;
+      border-color: #3834348f;
+      border-radius: 48%;
+      /*background-image: url('assets/images/logo/searchicon.png');*/
+      background-position: 10px 7px; 
+      background-repeat: no-repeat;
+      padding: 1px 2px 2px 40px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+    }
+#navbar input[type=search]:focus{
+      width: 100%;
+      border-radius: 5%;
+    }
+#navbar .navbar{
+      padding: 0.01rem 1rem;
+    }
+#navbar .bg-light{
+      background-color: #f7f6f6bd !important;
+    }
+#navbar .nav-link:hover{
+      color: #266ec0 !important;
+    }
+#navbar .navbar-light .navbar-toggler{
+      color: black;
+      border-color: black;
+    }
+/*#navbar .ml-5{
+      margin-left: 0px !important;
+    }*/
+
+#main_slider .carousel-item{
+        height: 100vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+#main_slider .carousel-control-next-icon, #main_slider .carousel-control-prev-icon{
+      position: relative;
+      bottom: 15vh;
+    }
+
+/*With content slider css apply*/
+.slider-content{
+      position: absolute;
+      top: 60vh;
+    }
+#product_cards .spacer{
+    height: 18vh;
+    /*margin: 0 0 -50px 0;*/
+    /* margin: 20px 0 -50px 0; use this if you want #container to have a 'bottom padding', in this case of 20px */
+    background: transparent; /* you'll need this if #container's parent element has a different background from #container itself */
+}
+/*.margin-apply{
+      margin-bottom: 20vh;
+    }*/
+.slider .carousel-item{
+      height: auto;
+      min-height: 50px;
+    }
+#prev_btn, #next_btn{
+      background-color: #484848a1;
+      width: auto;
+      padding: 7vh 2.5vh 7vh 2.5vh;
+    }
+/*.myslider .carousel-control-next{
+      right: -83px;
+    }
+.myslider .carousel-control-prev{
+      left: -83px;
+    }*/
+#product_slider .col-2{
+	/*flex: 0 0 14%;*/
+  padding-left: 5vh;
+}
